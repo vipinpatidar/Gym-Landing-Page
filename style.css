@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Piazzolla:opsz,wght@8..30,200;8..30,300;8..30,400&family=Quintessential&family=Roboto:ital@1&family=Yeon+Sung&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+  max-width: 80vw;
+}
+.navbar{
+    display: flex;
+    height: 6rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.navbar li{
+    list-style: none;
+    margin: 0 1.5rem;
+    font-size: 1.2rem;
+}
+.navbar li:hover{
+    color: rgb(225 74 55);
+}
+.logo{
+    font-size: 2rem;
+}
+
+/* //////////////////////////// section 1 /////////////////////////////////////////// */
+
+.section1{
+    max-height: 100vh;
+    padding: 2rem;
+
+}
+.section1 h1{
+    font-size: 2rem;
+}
+.topleft{
+    width:50%;
+   
+}
+.dumbellimg{
+    width: 12rem;
+    height: 7rem;
+}
+.topright{
+    width:50%;
+  
+}
+.gymimg{
+    width: 60vh;
+    height: 80vh;
+}
+.deal{
+    margin: 1rem auto;
+    font-size: 1.5rem;
+    color:rgb(225 74 55) ;
+}
+.buttons{
+    text-align: center;
+}
+/* /////////////////////////////////////////Section 2///////////////////////// */
+.section2{
+     padding: 4rem;
+}
+.section2 h1{
+    font-size: 2.2rem;
+}
+.section2 p{
+    text-align: center;
+    padding: 0 8vw;
+}
+.box{
+    padding: 1rem 0;
+    margin:2rem 3rem;
+    min-width: 21vw;
+    border: 2px solid black;
+    text-align: center;
+  box-shadow: 8px 8px 6px -6px black;
+}
+.box ul{
+    list-style: none;
+}
+.box h2{
+    font-size: 1.8rem;
+}
+.box ul li{
+    margin: 1rem 0.2rem;
+}
+
+/* ///////////////////////////////////////// Section 3 //////////////////////////////////////////////// */
+
+.plantable{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.section-3 table{
+   width: 100%;
+   margin-bottom: 5rem;
+   margin-top: 2rem;
+   line-height: 2.5;
+}
+.section-3 table th{
+   width: 23vw;
+   border-bottom: 2px solid grey;
+  
+}
+.section-3 table td{
+   /* width: 100%; */
+border-bottom: 2px solid black;
+ 
+}
+
+.section-3 h1{
+    font-size: 2.2rem;
+}
+.section-3{
+  padding: 4rem;
+}
+
+/* ////////////////////// Footer //////////////////////////////////////// */
+
+footer{
+    padding: 30px;
+    color: black;
+    text-align: center;
+    font-weight: 700;
+}
+
+/* media queries */
+
+@media(max-width:840px){
+
+    .gymimg {
+        width: 30vh;
+        height: 40vh;
+    }
+}
+@media(max-width:500px){
+    
+    .gymimg {
+        width: 30vh;
+        height: 40vh;
+    }
+        .section2 {
+            padding: 0rem;
+            margin-top: 20rem;
+        }
+
+}
